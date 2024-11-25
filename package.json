@@ -1,6 +1,11 @@
 {
   "name": "angular-main",
   "version": "0.0.0",
+  "main": "public-api.ts",
+  "files": [
+    "public-api.ts",
+    "src"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
