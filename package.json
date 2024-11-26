@@ -1,14 +1,10 @@
 {
   "name": "angular-main",
   "version": "0.0.0",
-  "main": "public-api.ts",
-  "types": "public-api.ts",
+  "main": "dist/public-api.js",
+  "types": "dist/public-api.d.ts",
   "files": [
-    "public-api.ts",
-    "src",
-    "dist/**/*",
-    "src/app/**/*.html",
-    "src/app/**/*.scss"
+    "dist/**/*"
   ],
   "scripts": {
     "ng": "ng",
