@@ -5,7 +5,8 @@
   "types": "public-api.ts",
   "files": [
     "public-api.ts",
-    "src"
+    "src",
+    "dist/**/*"
   ],
   "scripts": {
     "ng": "ng",
