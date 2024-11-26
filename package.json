@@ -6,7 +6,9 @@
   "files": [
     "public-api.ts",
     "src",
-    "dist/**/*"
+    "dist/**/*",
+    "src/app/**/*.html",
+    "src/app/**/*.scss"
   ],
   "scripts": {
     "ng": "ng",
