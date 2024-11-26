@@ -5,7 +5,7 @@ let TestComponent = class TestComponent {
 TestComponent = __decorate([
     Component({
         selector: 'app-test',
-        standalone: false,
+        standalone: true,
         templateUrl: './test.component.html',
         styleUrl: './test.component.scss',
     })
