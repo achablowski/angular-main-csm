@@ -3,6 +3,9 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "*": ["src/*"]
+    },
     "outDir": "dist",
     "strict": true,
     "noImplicitOverride": true,
@@ -16,7 +19,7 @@
     "declaration": true,
     "emitDeclarationOnly": false,
     "experimentalDecorators": true,
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",

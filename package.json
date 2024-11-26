@@ -4,7 +4,9 @@
   "main": "dist/public-api.js",
   "types": "dist/public-api.d.ts",
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "src/app/**/*.html",
+    "src/app/**/*.scss"
   ],
   "scripts": {
     "ng": "ng",
