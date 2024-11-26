@@ -1,5 +1,4 @@
 import { __decorate } from "tslib";
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 let TestComponent = class TestComponent {
 };
@@ -8,8 +7,7 @@ TestComponent = __decorate([
         selector: 'app-test',
         standalone: true,
         templateUrl: './test.component.html',
-        styleUrl: './test.component.scss',
-        imports: [CommonModule]
+        styleUrl: './test.component.scss'
     })
 ], TestComponent);
 export { TestComponent };
