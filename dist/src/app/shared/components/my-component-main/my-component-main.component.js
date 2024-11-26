@@ -5,9 +5,9 @@ let MyComponentMainComponent = class MyComponentMainComponent {
 MyComponentMainComponent = __decorate([
     Component({
         selector: 'app-my-component-main',
-        standalone: false,
-        templateUrl: './my-component-main.component.html',
-        styleUrl: './my-component-main.component.scss'
+        standalone: true,
+        template: `<p>my-component-main works!</p>
+  `
     })
 ], MyComponentMainComponent);
 export { MyComponentMainComponent };
