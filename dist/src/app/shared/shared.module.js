@@ -1,14 +1,16 @@
 import { __decorate } from "tslib";
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TestComponent } from '../../../public-api';
+import { MyComponentMainComponent } from './components/my-component-main/my-component-main.component';
 let SharedModule = class SharedModule {
 };
 SharedModule = __decorate([
     NgModule({
-        declarations: [TestComponent],
-        imports: [CommonModule],
-        exports: [TestComponent],
+        declarations: [MyComponentMainComponent],
+        imports: [
+            CommonModule
+        ],
+        exports: [MyComponentMainComponent]
     })
 ], SharedModule);
 export { SharedModule };
