@@ -2,6 +2,7 @@
   "name": "angular-main",
   "version": "0.0.0",
   "main": "public-api.ts",
+  "types": "public-api.ts",
   "files": [
     "public-api.ts",
     "src"
